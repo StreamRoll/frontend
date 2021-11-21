@@ -99,18 +99,7 @@ const Home = () => {
       .catch((error) => alert(error));
   }
 
-  const _transfer = async () => {
-    const signer = metaMaskProvider.getSigner();
-    const signerContract = contract.connect(signer);
-    if ((await signerContract.getCheckout(await signer.getAddress())) <= 0) {
-      alert("Insufficient checkout funds");
-      return;
-    }
-    const address = await signer.getAddress();
-    const amount = await signerContract.getCheckout(await signer.getAddress());
-    const result = await signerContract.transferBack(amount, address);
-  }
-
+  
   const _borrow = async () => {
     try {
       const signer = metaMaskProvider.getSigner();
@@ -164,7 +153,6 @@ const Home = () => {
         onChange3={(e) => setRetrieveAmount(e.target.value)}
         button3="Retrieve"
         onClick3={() => retrieveEth()}
-        sendEth={() => _transfer()}
       />
     </div>
   );
