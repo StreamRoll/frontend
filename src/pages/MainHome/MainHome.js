@@ -14,7 +14,7 @@ const MainHome = () => {
             await connectMetaMaskAccount();
             setUserAddress(await signer.getAddress());
             alert("You are connected");
-        }
+    }
 
     const createSafe = async () => {
         const signerContract = factoryContract.connect(signer);

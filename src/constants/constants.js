@@ -1,9 +1,9 @@
 
 // StreamRollV1.sol address on rinkeby
-export const RINKEBY_STREAM_ROLLV1 = "0x6FA2eF89ab4601B34313BF93E0E039cCCE213c4E";
+export const RINKEBY_STREAM_ROLLV1 = "0x40F39E578455b96b4f1e9A3C212724AA2bf4BB29";
 
 // CloneFactory.sol address on rinkeby
-export const RINKEBY_CLONE_FACTORY = "0xef76e3bf8b39f42DBe985e02709D5470E2B3337E";
+export const RINKEBY_CLONE_FACTORY = "0x23bcEef5F6D9bb518668680EbDbE79F16Dc011F0";
 
 // cEth address on rinkeby 
 export const RINKEBY_C_ETH = "0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e";

@@ -87,7 +87,9 @@ const Home = () => {
     }
     try {
       const signerStreamRoll = baseContract(proxyContract, abi).connect(signer);
-      await signerStreamRoll.getEtherBack(ethers.utils.parseEther(retrieveAmount.toString()));
+      const amountToSend = retrieveAmount.toString();
+      const amountInWei = ethers.utils.parseEther(amountToSend);
+      const result = await signerStreamRoll.getEtherBack(amountInWei);
     } catch(err) {
         alert(err);
     }
