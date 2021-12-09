@@ -1,0 +1,15 @@
+
+
+.dashboard-cards {
+    display:flex;
+    justify-content: center;
+    margin-top:-800px;
+    font-family: sans-serif;
+}
+
+.table {
+    margin-top:200px;
+    justify-content: center;
+}
+
+

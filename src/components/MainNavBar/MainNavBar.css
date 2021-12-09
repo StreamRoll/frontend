@@ -1,0 +1,46 @@
+.nav-bar {
+    font-family: sans-serif;
+    font-size: 25px;
+    
+}
+
+.logo {
+    display:flex;
+    margin-top:-10px;
+    margin-left: 0px;
+}
+
+.dashboard {
+    display:flex;
+    margin-left: 20px;
+}
+
+.supply-and-borrow {
+    display: flex;
+    margin-left:50px;
+}
+
+.stream {
+    display:flex;
+    margin-left:50px;
+}
+
+.deploy-safe-button {
+    display:flex;
+    margin-right:50px;
+}
+
+.drop-down {
+    display:flex;
+    margin-right: 50px;
+}
+
+.account-button {
+    display:flex;
+    margin-right:-60px;
+}
+
+
+body {
+    background-color: rgb(16,12,8);
+}

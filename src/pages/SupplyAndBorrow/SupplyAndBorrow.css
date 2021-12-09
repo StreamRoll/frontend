@@ -1,0 +1,16 @@
+.supply-borrow {
+    color:white;
+    font-family: sans-serif;
+}
+
+.l-b-cards {
+    display:flex;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+
+.input-2 {
+    display:flex;
+    margin-top:100px;
+}

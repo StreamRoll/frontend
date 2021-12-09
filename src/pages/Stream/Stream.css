@@ -1,0 +1,21 @@
+.stream-main {
+    color:white;
+    font-family: sans-serif;
+}
+
+.stream-card {
+    display: flex;
+    margin-top:200px;
+    justify-content: center;
+}
+
+
+.s1 {
+    display: flex;
+    margin-top:-10px;
+}
+
+.mb-3 {
+    display:flex;
+    margin-top: 50px;
+}

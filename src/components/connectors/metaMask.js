@@ -1,5 +1,3 @@
-
-// For rinkeby
 const { ethers } = require("ethers");
 
 export const connectMetaMaskAccount = async () => {
